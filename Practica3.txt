@@ -1,11 +1,61 @@
-Apartado A
+# Apartado A
+Contextualización: nombre del cliente, características del cliente,
+objetivos del proyecto y otros detalles que penséis necesarios para
+describir el contexto del proyecto propuesto.
 
-Apartado B
 
-Apartado C
+
+# Apartado B
+Modelo de ciclo de vida de desarrollo que utilizaréis en vuestro
+proyecto. Justificad el motivo.
+
+# Apartado C
+Documento ERS (Especificación de Requisitos de Software):
+· La planificación de las reuniones que van a tener lugar.
+· Relación de los objetivos del usuario cliente y del sistema.
+· Relación de los requisitos funcionales y no funcionales del sistema.
+· Relación de objetivos prioritarios y temporización.
 
 Reuniones - 3 reuniones iniciales con los ministerios; 1 para que nos expliquen lo que quieren,
 2 presentación de nuestra primera planificación y feedback, 3 propuesta definitiva con ajustes y cambios.
 Además,  paralelamente,  reuniones con los responsables de los zoos y, además, con los del departamento de informática. Primero
 públicos, y los privados que se adhieran.
 a partir de ahí, reuniones al acabar cada fase importante (con ministerios) y reuniones puntualescon los de los zoos.
+
+# Apartado D
+Diseño: sin llegar a entrar en detalle en el diseño de la aplicación en
+cuestión, establecer las principales partes del software a realizar y
+obtener un modelo funcional-estructural. Representad mediante un
+diagrama la estructura del mismo. Haced una aproximación en vuestra
+opinión de la manera que modulareis el software para dar solución a
+cada una de las partes.
+
+
+# Apartado E
+Codificación: Establecer con que lenguajes de programación se
+realizará el software en cuestión. Justificar el motivo de por qué este
+lenguaje o lenguajes es adecuado. Cuáles son sus características…
+etc. entorno de trabajo, control de versiones.
+
+
+# Apartado F
+Pruebas: Establecer un plan de pruebas para llevar a cabo el proyecto.
+Establecer cuáles serán las pruebas integradas que se llevarán a cabo
+en el proyecto.
+
+
+# Apartado G
+Documentación: Especificar que documentación aportaréis al cliente al
+final del proyecto, y el contenido de la misma.
+
+
+# Apartado H
+Explotación: Especificar un plan de puesta en marcha del proyecto. ¿En
+qué consistirá?
+
+
+# Apartado I
+Mantenimiento: Dad por hecho que realizaréis el mantenimiento de la
+aplicación desarrollada. ¿Qué tipo de mantenimiento creéis que
+deberíais hacer?
+
