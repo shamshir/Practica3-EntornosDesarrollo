@@ -22,6 +22,17 @@ Además,  paralelamente,  reuniones con los responsables de los zoos y, además,
 públicos, y los privados que se adhieran.
 a partir de ahí, reuniones al acabar cada fase importante (con ministerios) y reuniones puntualescon los de los zoos.
 
+oBJETIVOS - promocionar las visitas a los zoos y acuarios (mediante descuentos). educar valores medioambientales y concienciación par con animales y plantas (medioambiente). Dirigido al público general. ENciclopedia redactada con lenguaje plano y fácil de entender.
+
+requisitos funcionales - visualización de la app/página, tres opciones de visualización (por cámaras, animales y por zoos),
+visualización cámaras (gestor de cámaras, conexióna  tiempo real (mostrar mensaje de "no disponible" e imagen del zoo si la cámara falla), filtrado por zoo y/o animal), visualización enciclopedia/animales (buscador, catálogo offline), visualización zoos (buscador, información y contacto zoos)
+enlaces entre las tres formas de visualización (en cámaras, enlace al zoo y a la ficha del animal, en la enciclopedia, acceso a las cámaras y a los zoos que tienen ese animal, y en los zoos, enlaces a las cámaras de ese zoo y a las fichas de los animales que hay en él)
+
+requisitos no funcionales -
+que el "tiempo real" sea real, que la app/página cargue rápido, sincronización con servidores de los zoos y 
+
+objetivos prioritarios y temporalización - 
+
 # Apartado D
 Diseño: sin llegar a entrar en detalle en el diseño de la aplicación en
 cuestión, establecer las principales partes del software a realizar y
