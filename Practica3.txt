@@ -1,3 +1,7 @@
+Javi
+Rodolfo 
+Maria
+
 # Apartado A
 Contextualización: nombre del cliente, características del cliente,
 objetivos del proyecto y otros detalles que penséis necesarios para
