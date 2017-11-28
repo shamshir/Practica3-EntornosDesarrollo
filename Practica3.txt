@@ -2,75 +2,243 @@ Javi
 Rodolfo 
 Maria
 
+
 # Apartado A
+
 Contextualización: nombre del cliente, características del cliente,
+
 objetivos del proyecto y otros detalles que penséis necesarios para
+
 describir el contexto del proyecto propuesto.
 
 
 
+Ministerio de educacion y medioambiente, saca a concurso un proyecto, lo ganamos.
+
+Se trata de hacer una aplicacion para movil y una pagina web educativas para fomentar promocionar visitas a los zoos y acuarios.
+
+
+
 # Apartado B
+
 Modelo de ciclo de vida de desarrollo que utilizaréis en vuestro
+
 proyecto. Justificad el motivo.
 
+
+
+Modelo en cascada con realimentacion.
+
+No van a surgir imprevistos: las caracteristicas del software esta claras, el presupuesto esta cerrado ya que es un proyecto 
+
+sacado a concurso publico....
+
+
+
 # Apartado C
+
 Documento ERS (Especificación de Requisitos de Software):
+
 · La planificación de las reuniones que van a tener lugar.
+
 · Relación de los objetivos del usuario cliente y del sistema.
+
 · Relación de los requisitos funcionales y no funcionales del sistema.
+
 · Relación de objetivos prioritarios y temporización.
 
+
+
 Reuniones - 3 reuniones iniciales con los ministerios; 1 para que nos expliquen lo que quieren,
+
 2 presentación de nuestra primera planificación y feedback, 3 propuesta definitiva con ajustes y cambios.
+
 Además,  paralelamente,  reuniones con los responsables de los zoos y, además, con los del departamento de informática. Primero
+
 públicos, y los privados que se adhieran.
+
 a partir de ahí, reuniones al acabar cada fase importante (con ministerios) y reuniones puntualescon los de los zoos.
 
-oBJETIVOS - promocionar las visitas a los zoos y acuarios (mediante descuentos). educar valores medioambientales y concienciación par con animales y plantas (medioambiente). Dirigido al público general. ENciclopedia redactada con lenguaje plano y fácil de entender.
+
+
+oBJETIVOS - promocionar las visitas a los zoos y acuarios (mediante descuentos). educar valores medioambientales y concienciación par con animales y plantas (medioambiente). Dirigido al público general y en una segunda fase mas enfocada al publico infantil. ENciclopedia redactada con lenguaje plano y fácil de entender.
+
+
+
+
 
 requisitos funcionales - visualización de la app/página, tres opciones de visualización (por cámaras, animales y por zoos),
+
 visualización cámaras (gestor de cámaras, conexióna  tiempo real (mostrar mensaje de "no disponible" e imagen del zoo si la cámara falla), filtrado por zoo y/o animal), visualización enciclopedia/animales (buscador, catálogo offline), visualización zoos (buscador, información y contacto zoos)
+
 enlaces entre las tres formas de visualización (en cámaras, enlace al zoo y a la ficha del animal, en la enciclopedia, acceso a las cámaras y a los zoos que tienen ese animal, y en los zoos, enlaces a las cámaras de ese zoo y a las fichas de los animales que hay en él)
 
+
+
 requisitos no funcionales -
+
 que el "tiempo real" sea real, que la app/página cargue rápido, sincronización con servidores de los zoos y 
+
+
 
 objetivos prioritarios y temporalización - 
 
+Objetivos prioritarios: 
+
+1ªfase: enciclopedia, camaras, informacion sobre los zoos, descuentos.
+
+2ª fase: noticias y novedades, test y actividades para niños y escuelas.
+
+
+
 # Apartado D
+
 Diseño: sin llegar a entrar en detalle en el diseño de la aplicación en
+
 cuestión, establecer las principales partes del software a realizar y
+
 obtener un modelo funcional-estructural. Representad mediante un
+
 diagrama la estructura del mismo. Haced una aproximación en vuestra
+
 opinión de la manera que modulareis el software para dar solución a
+
 cada una de las partes.
 
 
+
+Fase1:
+
+Interfaz gráfica: hacer dibujo de las tres
+
+
+
+diagrama que interrelaciona los programas que gestionan las diferentes funcionalidades
+
+
+
+Funcionalidades (programas):
+
+   
+
+   interfaz gráfica de navegación
+
+   programa para para filtrar 
+
+   buscador
+
+   programa para gestionar las camaras
+
+   
+
+   
+
+
+
+
+
+
+
 # Apartado E
+
 Codificación: Establecer con que lenguajes de programación se
+
 realizará el software en cuestión. Justificar el motivo de por qué este
+
 lenguaje o lenguajes es adecuado. Cuáles son sus características…
+
 etc. entorno de trabajo, control de versiones.
 
 
+
+Version Andriod :  Java
+
+Verion IOs:  Objective-C 
+
+
+
 # Apartado F
+
 Pruebas: Establecer un plan de pruebas para llevar a cabo el proyecto.
+
 Establecer cuáles serán las pruebas integradas que se llevarán a cabo
+
 en el proyecto.
 
 
+
+Pruebas unitarias
+
+Pruebas de integracion
+
+
+
+Pruebas para la version movil: simulador iOS y el emulador Android.
+
+Pruebas para la version escritorio:
+
+realizar las pruebas y el testeo en dispositivos móviles de verdad para poder ver el flujo de interacción de la app y los fallos en un hardware real.
+
+
+
+
+
 # Apartado G
+
 Documentación: Especificar que documentación aportaréis al cliente al
+
 final del proyecto, y el contenido de la misma.
 
 
+
+Guia técnica: ver apuntes
+
+Guia de uso: ventana de ayuda
+
+Guia de instalacion: no, exlicar
+
+
+
+
+
 # Apartado H
+
 Explotación: Especificar un plan de puesta en marcha del proyecto. ¿En
+
 qué consistirá?
+
+Publicidad se encarga ministerio y zoos.
+
+Proporcionar imágenes de la app para la publicidad
+
+Nosotros nos encargamos de subir la aplicacion a las tiendas de aplicaciones (app Store y Play Store)
+
+
+
 
 
 # Apartado I
+
 Mantenimiento: Dad por hecho que realizaréis el mantenimiento de la
+
 aplicación desarrollada. ¿Qué tipo de mantenimiento creéis que
+
 deberíais hacer?
 
+
+
+-Perfectivos: añadir camaras e informacion a la app
+
+-Evolutivos: 2ª fase del proyecto
+
+-Adaptativos:si hubiera un cambio en la tecnologia de camaras implicaria un cambio en la forma de conexion
+
+-Correctivos: revisar y corregir los posibles fallos del software
+
+
+
+
+
+BIBLIOGRAFIA/CONSULTA
+
+https://www.yeeply.com/blog/crear-apps-moviles-diferencias-android-e-ios/
